@@ -6,7 +6,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
   }
 
@@ -40,6 +40,13 @@ nav ul li {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+ul li.active a{
+  background-color: rgb(231, 201, 90);
+  border-radius: 13px;
+  padding: 10px 20px;
+  transition: 0s;
+}
+
 body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -49,32 +56,26 @@ main{
   display: flex;
 }
 
-.text{
-  margin-left: 10px;
-}
-
-.main-paragraph{
+.text h1, a, p{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  margin-left: 10px;
+  color: black;
 }
+
 
 .main-text{
   margin-top: 100px;
   text-align: left;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
 }
 
-.main-button{
-  padding: 10px 15px;
+#main-button{
+  padding: 10px 16px;
   background-color: rgb(231, 201, 90);
-  color: black;
   border-radius: 4px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 13px;
-
 }
 
 
@@ -112,44 +113,90 @@ img {
   to {opacity: 1}
 }
 
+
+.work
+{
+  margin:80px 10px;
+}
+
+
 .showcase{
   display: flex;
   justify-content: space-between;
 }
 
-.all{
-  border: none;
-  background-color: #e7f344;
-  cursor: pointer;
+.showcase-button{
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-showcase{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons{
   margin: 10px 10px;
-  padding: 5px 5px;
+  padding: 15px 10px;
 }
 
-.branding{
-  border: none;
-  background-color: #ffffff;
+
+.work .image-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* padding: 0 50px; */
+  padding-bottom: 2rem;
+}
+
+.work .image-container .image{
+  
+  width: 25%;
+  margin:2rem;
+  border:1rem solid #fff;
+  box-shadow: 0 .5rem .5rem rgba(0,0,0,.3);
+}
+
+.work .image-container .image img{
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.work .showcase .buttons{
   cursor: pointer;
-  margin: 10px 10px;
-  padding: 5px 5px;
-}
-
-.illustration{
-  border: none;
-  background-color: #ffffff;
-  cursor: pointer;
-  margin: 10px 10px;
-  padding: 5px 5px;
-}
-
-.web{
-  border: none;
-  background-color: #ffffff;
-  cursor: pointer;
-  margin: 10px 10px;
-  padding: 5px 5px;
 }
 
 
-.work{
-  display: inline;
+
+
+
+
+
+
+
+.about
+{
+  margin: 80px 10px;
 }
+
+
+
+
+
+
+.blog
+{
+  margin: 80px 10px;
+}
+
+
+
+
+
+.contact
+{
+  margin: 80px 10px;
+}
+

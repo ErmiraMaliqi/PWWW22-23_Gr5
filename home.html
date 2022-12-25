@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative Digital Agency Website</title>
+    <title>Creative Digital Agency</title>
     <link rel="stylesheet" href="home.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+
 
 </head>
 <body>
@@ -18,45 +21,50 @@
         
          <nav class="navbar">
             <ul class="nav-ul">
-                <li class="active nav-link"><a href="home.html" >HOME</a></li>
-                <li class="nav-link"><a href="about.html" >ABOUT</a></li>
+                <li class="active nav-link"><a href="home.html">HOME</a></li>
+                <li class="nav-link"><a href="work.html">WORK</a></li>
+                <li class="nav-link"><a href="about.html">ABOUT</a></li>
                 <li class="nav-link"><a href="blog.html">BLOG</a></li>
                 <li class="nav-link"><a href="contact.html"> CONTACT</a></li>
             </ul>     
          </nav>
     </header>
 
-    <main>
+  <main>
 
         <div class="text">
             <h1 class="main-text">Hello!!!<br>
             We Are Creative <br>Digital Agency </h1>
-            <p class="main-paragraph">Here you can find out about what we do and why we do it</p>
-            <a class="main-button" href="/contact.html">SEND MESSAGE</a>
+            <p>Here you can find out about what we do and why we do it</p>
+            <a id="main-button" href="/contact.html">SEND MESSAGE</a>
         </div>
 
         
-  <div class="slideshow-container">
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 4</div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
       <img src="/Images/photo1.jpeg">
-    </div>
+      </div>
     
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 4</div>
-      <img src="/Images/photo2.jpg">
-    </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="/Images/photo2.jpg">
+      </div>
     
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 4</div>
-      <img src="/Images/photo3.jpg">
-    </div>
-    <div class="mySlides fade">
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="/Images/photo3.jpg">
+      </div>
+      
+      <div class="mySlides fade">
         <div class="numbertext">4 / 4</div>
         <img src="/Images/photo4.jpg">
       </div>
+    
     </div>
+    
     <br>
+    
     <div>
       <span class="dot"></span> 
       <span class="dot"></span> 
@@ -64,42 +72,74 @@
       <span class="dot"></span> 
     </div>
 
-</main>
+  </main>
 
-
-    
-  <section class="work">      
-      <h1>WORK SHOWCASE</h1>
-
-    <div class="showcase">
-
-      <div class="showcase-botton">
-      <button class="all">ALL</button>
-      <button class="branding">BRANDING</button>
-      <button class="illustration">ILLUSTRATION</button>
-      <button class="web">WEB</button>
-      </div>
-      
-      <select name="select">
-      <option name="newest">NEWEST FIRST</option>
-      <option name="latest">LATEST FIRST</option>
-      </select>
   
-    </section>
+  <section class="work" id="work">
+    <h1 class="heading"><span>WORK SHOWCASE.</span></h1>
+    
+    <div class="work-showcase">
+      <ul class="showcase">
+        <li class="buttons button-active" data-filter="all">ALL</li>
+        <li class="buttons" data-filter="branding">BRANDING</li>
+        <li class="buttons" data-filter="illustration">ILLUSTRATION</li>
+        <li class="buttons" data-filter="web">WEB</li>
+   
+      </ul>
+
+      <select>
+        <option class="newest">NEWEST FIRST</option>
+        <option class="oldest">OLDEST FIRST</option>
+      </select>
+    </div>
+
+
+    <div class="image-container">
+   
+      <!-- branding -->
+      <div class="image branding">
+        <img src="/Images/1.-Render_Front_Assembly.png" alt="soup">
+      </div>
+
+      <div class="image branding">
+          <img src="/Images/AW-Tin-Can-Tapes_Project-Images-08.jpg" alt="soup">
+      </div>
+
+      <div class="image branding">
+          <img src="Images/D.O.W.jpg" alt="soup">  
+      </div>
+
+      <div class="image branding">
+          <img src="/Images/Decor-Glassess-for-powerbackground.png" alt="soup">
+      </div>
+
+      <!-- illustration -->
+      <div class="image illustration">
+          <img src="Images/Secret Garden.jpg" alt="soup">
+      </div>
+
+      <div class="image illustration">
+          <img src="/Images/v.3.0_Tekengebied-1-2048x2048.png" alt="soup">
+      </div>
+
+    </div>
+
+
+  </section>
 
 
 
-    <section class="about" >
+    <section class="about">
       <h1>ABOUT US.</h1>
-
     </section>
 
 
 
     <section class="blog">
       <h1>OUR BLOG.</h1>
-
     </section>
+
+
 
 
     <section class="contact">
