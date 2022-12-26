@@ -31,32 +31,29 @@
 
   <main>
 
-        <div class="text">
-            <h1 class="main-text">Hello!!!<br>
-            We Are Creative <br>Digital Agency </h1>
-            <p>Here you can find out about what we do and why we do it</p>
-            <a id="main-button" href="/contact.html">SEND MESSAGE</a>
-        </div>
+    <div class="text">
+        <h1 class="main-text">Hello!!!<br>
+        We Are Creative Digital Agency </h1>
+        <p>Here you can find out about what we do and why we do it</p>
+        <a id="main-button" href="/contact.html">SEND MESSAGE</a>
+    </div>
 
         
     <div class="slideshow-container">
+      
       <div class="mySlides fade">
-        <div class="numbertext">1 / 4</div>
       <img src="/Images/photo1.jpeg">
       </div>
     
       <div class="mySlides fade">
-        <div class="numbertext">2 / 4</div>
         <img src="/Images/photo2.jpg">
       </div>
     
       <div class="mySlides fade">
-        <div class="numbertext">3 / 4</div>
         <img src="/Images/photo3.jpg">
       </div>
       
       <div class="mySlides fade">
-        <div class="numbertext">4 / 4</div>
         <img src="/Images/photo4.jpg">
       </div>
     
@@ -75,7 +72,7 @@
 
   
   <section class="work" id="work">
-    <h1 class="heading"><span>WORK SHOWCASE.</span></h1>
+    <h1 class="heading"><span>WORK SHOWCASE.</span></h2>
     
     <div class="work-showcase">
       <ul class="showcase">
@@ -151,22 +148,153 @@
 
 
     <section class="about">
-      <h1>ABOUT US.</h1>
+      <h2>ABOUT US.</h2>
+      <p>An experienced branding team
+        based on Sydney's Northern Beaches</p>      
+
+      <div class="about-content">  
+        
+        <div class="about-img">
+          <div class="img">
+            <img src="/Images/FOUNDER & MANAGING DIRECTOR.png" alt="FOUNDER & MANAGING DIRECTOR">
+            <div class="description">
+              <p class="worker" id="name">JASON WALTERS</p>
+              <p class="worker" id="profesion">Founder & Managing Director</p>
+            </div>
+          </div>
+          <div class="img">
+            <img src="/Images/CREATIVE DIRECTOR.png" alt="CREATIVE DIRECTOR">
+            <div class="description">
+              <p class="worker" id="name">BROOK TOWNSEND</p>
+              <p class="worker" id="profesion">Creative Director</p>
+            </div>
+        </div>
+
+        <div class="little-about-us">
+          <h3>Little About Us</h3>
+          <p>When it comes to branding, experience matters. We know that you need a team that has the skills 
+          and experience to create branding concepts and executions that are underpinned by robust strategy.<br><br> 
+          For more than 15 years, Push Creative has been helping our clients to stand out, be seen <span id="dots">...</span>
+          <span id="more">and grow through creative and strategic design. <br>
+            Our client and account management experience means that we're a partner you can rely on when it comes to meeting 
+            project deliverables, on time and on budget.</span> 
+          <br>
+          </p>
+
+          <div class="about-read-more">
+          <button onclick="readMore()" id="read-more">Read More</button>
+          </div>
+        </div>
+
+      </div>
     </section>
 
 
 
     <section class="blog">
-      <h1>OUR BLOG.</h1>
-    </section>
+      <h2>OUR BLOG.</h2>
+      <p>Opinions, Observations, Views and Insights - Our Blog Says it All</p>
 
+
+      <div class="blog-content">
+
+          <div class="blog-img">
+            <img src="/Images/blog1.png">
+            <a href="/blog.html" class="readmore">Read More</a>
+            <div class="blog-text">
+              <p class="blog-title">HOW TO HIRE A MARKETING AGENCY FOR YOUR BUSINESS</p>
+              <p class="blog-paragraph">A very informative article by the Research Team at CREATIVE INC -
+                 leading global marketing & creative agency that believes in being ...</p>
+                 <date class="blog-paragraph">20 May 2020</date>
+              </div>
+          </div>
+
+          <div class="blog-img">
+            <img src="/Images/blog2.png">
+            <a class="readmore" href="/blog.html">Read More</a>
+
+            <div class="blog-text">
+              <p class="blog-title">THREE REASONS TO OUTSOURSE YOUR SOCIAL MEDIA MARKETING</p>
+              <p class="blog-paragraph">Social media marketing is about engaging with your audience, and the 
+                best way to maximise on this is with a dedicated... 
+                </p>
+                <date class="blog-paragraph">20 May 2020</date>
+            </div>
+          </div>
+
+          <div class="blog-img">
+            <img src="/Images/blog3.png">
+            <a href="/blog.html" class="readmore">Read More</a>
+            <div class="blog-text">
+              <p class="blog-title">THE POWER OF PRINT IN A DIGITAL WORLD - INFOGRAPHICS</p>
+              <p class="blog-paragraph">In the age of digital marketing, does print advertising 
+                still have any relevance? Print Advertising can retain your message even 
+                when the sales...</p>
+                <date class="blog-paragraph">20 May 2020</date>
+           </div>
+          </div>
+      <div>
+    </section>
 
 
 
     <section class="contact">
-      <h1>CONTACT US.</h1>
+      <h2>CONTACT US.</h2>
+      <p>We're always available to chat about working together and would love to hear from you.</p>
 
+
+      <div class="contact-content">
+
+        <div class="send-message">
+          
+            <h3>Send Us Message.</h3>
+            <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+              <input type="text" placeholder="Name" name="name" id="text"><br><br>
+              <input type="text" placeholder="E-mail" name="e-mail" id="text"><br><br>
+              <textarea  name="message" placeholder="Message" rows="7" cols="30" id="message"></textarea><br><br>
+              <input type="submit" value="SEND MESSAGE" id="submit">
+            </form>
+          
+          
+        </div>
+
+        <div class="contact-photo">
+          <img src="/Images/contact.png">
+        </div>
+
+      </div>
+
+      <footer class="contact-footer">
+        <div class="adress">
+            <div>
+              <img src="/Images/location.png">
+                <p>Headquarters: A 21, 2nd & 3rd Floor, Mount Kailash, East of Kailash, New Delhi</p>
+            </div>
+            <div>
+              <img src="/Images/phone.jpg">
+              <p>+91-9717564937</p>
+            </div>
+            <div>  
+              <img src="/Images/mail.png">
+            <p>mint@mintmail.com</p>
+            </div>
+        </div>
+        
+        <div class="social-media">
+
+         <a href="https://www.facebook.com/"><img src="/Images/facebook.png" alt="Facebook"></a>
+         <a href="https://www.twitter.com"><img src="/Images/twitter.png" alt="Twitter"></a>
+         <a href="https://www.linkedin.com"><img src="/Images/linkedin.png" alt="Linkedin"></a>
+        </div>
+        
+      </footer>
     </section>
+
+
+
+
+
+
 
 
     <footer class="my-footer">
@@ -175,8 +303,7 @@
         <p>2022 &#169; - Mint,All Right Reserved</p>
       </div>
 
-        <a class="back-to-top" href="/home.html"><p>BACK TO TOP &uarr;</p></a>
-      
+      <a class="back-to-top" href="/home.html"><p>BACK TO TOP &uarr;</p></a>
     </footer>
 
 </body>
