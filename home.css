@@ -10,15 +10,18 @@
     position: relative;
   }
 
-header {
-    margin: 0px 120px;
+  header {
     background-color: rgb(255, 255, 255);
     height: 80px;
     display: flex;
     justify-content: space-between;
-}
+    position: sticky;
+    top:0px;
+    z-index: 999;
+  }
 
 .logo img{
+  margin: 0 110px;
   width: 200px;
   height: 80px;
 }
@@ -27,16 +30,32 @@ header {
   margin-right: 10%;
 }
 
+nav{
+  margin-right: 120px;
+}
 
 nav ul li {
+    margin:0 20px;
+    font-size: 15px;
     display: inline-block;
     line-height: 80px;
 }
 
+nav ul li:nth-child(5){
+  margin:0;
+}
+
 .nav-link a{
     color:black;
-    margin: 0 30px;
+    margin: 0 15px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li a:hover{
+  background-color: rgb(74, 189, 181);
+  border-radius: 13px;
+  padding: 10px 20px;
+  transition: 0s;
 }
 
 ul li.active a{
@@ -44,6 +63,10 @@ ul li.active a{
   border-radius: 13px;
   padding: 10px 20px;
   transition: 0s;
+}
+
+ul li.active a:hover{
+  border-radius: 10px;
 }
 
 body{

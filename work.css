@@ -1,81 +1,139 @@
 * {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top:0px;
-    padding: 0px;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: relative;
-  }
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top:0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  color: black;
+}
 
 header {
-    margin: 0px 120px;
-    background-color: rgb(255, 255, 255);
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top:0px;
+  z-index: 999;
 }
 
 .logo img{
-  width: 200px;
-  height: 80px;
+  margin: 0 120px;
+width: 200px;
+height: 80px;
 }
 
 .text {
-  margin-right: 50px;
+margin-right: 10%;
 }
 
+nav{
+  margin-right: 120px;
+}
 
 nav ul li {
-    display: inline-block;
-    line-height: 80px;
+  display: inline-block;
+  line-height: 80px;
 }
 
 .nav-link a{
-    color:black;
-    margin: 0 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+  margin: 0 30px;
 }
 
-ul li.active a{
-  background-color: rgb(231, 201, 90);
+ul li a:hover{
+  background-color: rgb(74, 189, 181);
   border-radius: 13px;
   padding: 10px 20px;
   transition: 0s;
 }
 
+ul li.active a{
+background-color: rgb(74, 189, 181);
+border-radius: 13px;
+padding: 10px 20px;
+transition: 0s;
+}
+
+ul li.active a:hover{
+  border-radius: 10px;
+}
+
 body{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .my-footer{
-  display: flex;
-  justify-content: space-between;
-  padding:0px 0px;
-  background-color: black;
+display: flex;
+justify-content: space-between;
+padding:0px 0px;
+background-color: black;
 }
 
 .my-footer img{
-    margin: 70px 0px 35px 120px;
-    width: 120px;
-  height: 90px;
+margin: 70px 0px 35px 120px;
+width: 120px;
+height: 90px;
 }
 .my-footer .copyright{
-  display: flex;
+display: flex;
 }
 
 .my-footer p{
-  margin: 100px 10px;
-  color:white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 100px 10px;
+color:white;
 }
 
 
 .back-to-top{ 
-  margin: 0px 120px;
-  color:rgb(255, 255, 255);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0px 120px;
+color:rgb(255, 255, 255);
 }
+
+main{
+  text-align: center;
+  margin: 80px 120px;
+}
+
+.main-text .title{
+  margin:30px 0;
+}
+
+.main-text .text{
+  margin-bottom: 50px;
+}
+
+.main-text .button{
+  padding: 15px;
+  border-radius: 4px;
+  background-color: white;
+  border: solid;
+  border-color: rgb(74, 189, 181); 
+}
+
+
+.ourwork{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin: 150px 0;
+}
+
+.ourwork .product{
+  margin:0 10px
+}
+
+.ourwork .product img{
+  width:370px;
+  height: 300px;
+}
+
+.ourwork .product div{
+  width: 360px;
+}
+
