@@ -1,6 +1,7 @@
 let slideIndex = 0;
 showSlides();
 
+
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -39,9 +40,7 @@ function readMore() {
 
 $('.showcase .buttons').click(function(){
   $(this).addClass('button-active').siblings().removeClass('button-active');
-//   metoda attr() ne jquery perdoret per me kthy vleren e  atributet psh all, branding etc
-
-
+//   metoda attr() ne jquery perdoret per me kthy vleren e  atributet psh all, branding etj
 
   let filter=$(this).attr('data-filter');
   if(filter=='all'){
@@ -49,6 +48,7 @@ $('.showcase .buttons').click(function(){
     $('.work .image' ).filter('.'+filter).show(400);
   }
 //   hide-callback
+
   else{
     $('.work .image' ).not('.'+filter).hide(200);
     $('.work .image' ).filter('.'+filter).show(400);
