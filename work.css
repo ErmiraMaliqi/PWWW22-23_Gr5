@@ -141,15 +141,31 @@ main{
   width: 360px;
 }
 
-.ourwork .product div .name{
-  padding-top: 10px;
-  font-size: 12px;
-  color: brown;
-}
 
 .ourwork .product div .title{
   font-size: 18px;
   font-weight: bold;
+  margin-top: 20px;
+}
+
+ #featured1 {
+  background-color: #FAFAFA;
+}
+
+ #featured1 figcaption,  #featured2 figcaption,  #featured3 figcaption {
+  position: absolute;
+  top: 245px;
+  left: -15px;
+  width: 120%;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Open Sans', Verdana, Arial, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  opacity: 0;
+  padding: 22px 40px 2px 2px;
+  text-align: center;
+  display: block;
 }
 
 
