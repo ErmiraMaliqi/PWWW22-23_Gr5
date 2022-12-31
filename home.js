@@ -20,6 +20,7 @@ function showSlides() {
 }
 
 
+
 function readMore() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
