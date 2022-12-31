@@ -12,7 +12,7 @@
 }
 
 header {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 48, 63);
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -23,12 +23,8 @@ header {
 
 .logo img{
   margin: 0 120px;
-width: 200px;
-height: 80px;
-}
-
-.text {
-margin-right: 10%;
+  width: 120px;
+  height: 80px;
 }
 
 nav{
@@ -41,7 +37,7 @@ nav ul li {
 }
 
 .nav-link a{
-  color:black;
+  color:rgb(255, 255, 255);
   margin: 0 30px;
 }
 
@@ -96,22 +92,27 @@ color:rgb(255, 255, 255);
 }
 
 main{
+  padding: 100px 15px;
   text-align: center;
-  margin: 80px 120px;
+  background-color: rgb(0, 48, 63);
 }
 
 .main-text .title{
+  color: rgb(193, 193, 74);
   margin:30px 0;
+  font-size: 50px;
 }
 
 .main-text .text{
   margin-bottom: 50px;
+  font-size: 20px;
+  color:white;
 }
 
 .main-text .button{
   padding: 15px;
   border-radius: 4px;
-  background-color: white;
+  color: rgb(193, 193, 74);
   border: solid;
   border-color: rgb(74, 189, 181); 
 }
