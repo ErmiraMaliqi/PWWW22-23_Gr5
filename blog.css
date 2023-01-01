@@ -61,7 +61,7 @@ ul li.active a:hover{
 }
 
 body{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(19, 82, 94);
   color: rgb(0, 0, 0);
 }
 
@@ -94,10 +94,11 @@ color:rgb(255, 255, 255);
 
 
 main{
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
   background-color: rgb(0, 48, 63);
-
+  box-shadow: 0 .5rem .5rem rgba(0,0,0,.3);
 }
 
 main .image img{
@@ -116,26 +117,107 @@ main .main-text{
   font-size: 9rem;
   font-weight: 600;
   margin-bottom: 15px;
-  color:white;
+  color: rgb(193, 193, 74);
   font-family: Outfit,sans-serif;
 }
 .main-text .latest-post{
   font-size: 2rem;
   color: white;
   font-family: Outfit,sans-serif;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
+main .image:hover>.description{
+  display: none;
+}
 
+main .image:hover>img{
+  transform: scale(1.02,1.02); 
+  cursor: pointer;
+}
 
+main .image .description{
+  display: inline;
+  position: absolute;
+  top:391.5px;
+  left: 100px;
+  background: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.7));
+  width:77.77%;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
 
+}
 
+main .image .description .text{
+  color:white;
+  padding-left: 20px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
 
+main .image .description .date{
+  color:white;
+  padding-left: 30px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
 
+.posts{
+  margin: 80px 20px;
+}
+.posts p{
+  padding-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(193, 193, 74);
+}
+.posts img{
+  width:100%;
+  border-radius: 40px;
+  margin: 20px 0;
+  padding:10px;
+}
 
+.posts table{
+  width: 100%;
+  table-layout: fixed;
+}
+  
+.posts .buttons{
+  cursor: pointer;
+}
 
+.posts .post .description{
+  background: -webkit-linear-gradient(top,transparent,rgba(0, 0, 0, 0.1));
+  position:absolute; 
+  bottom: 34px; 
+  top: 70px;
+  right: 0;
+  left: 10px;
+  width:96.8%;
+  padding: 7rem 4.5rem 1.5rem 1.5rem;
+  display: inline;
+  border-radius: 30px;
+}
 
+.posts .post .description .text{
+  font-size: 20px;
+  padding-top: 50px;
+  color: aliceblue;
+}
 
+.posts .post .description .date{
+  font-size: 12px;
+  color: aliceblue;
+}
+
+.posts .post:hover>.description{
+  display: none;
+}
+
+.posts .post:hover{
+  cursor: pointer;
+}
 
 
 
@@ -149,9 +231,6 @@ main .main-text{
   
 }
 
-
-
-
 .contact .contact-content{
   background-color:  rgb(0, 48, 63);
   width: 600px;
@@ -159,6 +238,7 @@ main .main-text{
   border-radius: 4px;
   padding-left: 30px ;
   margin-top: 30px;
+  box-shadow: 0 .5rem .5rem rgba(0,0,0,.3);
 }
 
 
