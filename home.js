@@ -38,7 +38,6 @@ function readMore() {
 }
 
 
-
 $('.showcase .buttons').click(function(){
   $(this).addClass('button-active').siblings().removeClass('button-active');
 //   metoda attr() ne jquery perdoret per me kthy vleren e  atributet psh all, branding etj
