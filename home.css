@@ -12,6 +12,7 @@
 
   header {
     background-color: rgb(255, 255, 255);
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,.3);
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -211,7 +212,6 @@ main{
 }
 
 
-
 .work .image-container .image img{
   height: 20rem;
   width: 100%;
@@ -219,7 +219,6 @@ main{
   border-radius: 10px;
 
 }
-
 
 
 .work .showcase .buttons{
