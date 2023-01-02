@@ -107,13 +107,44 @@ main .get-in-touch{
   margin: 50px 0;
 }
 
-.section-form a{
+.section-form .number{
   color: rgb(193, 193, 74);
   font-weight: bold;
   font-size: 20px;
 }
 
 .section-form{
-  padding: 20px 20px;
+  margin:80px 100px;
+}
+
+.section-form .text{
+  display: flex;
+  border-bottom: solid;
+  border-color:rgb(0, 48, 63);
+  padding-bottom: 40px;
+}
+
+.section-form .text div{
+  width:600px;
+}
+
+.section-form .row{
+  margin:80px 0px;
+  display: flex;
+}
+
+.section-form .row .column{
+  width: 600px;
+}
+
+.section-form .row .column .locations{
+  display: flex;
+  width:480px;
+  justify-content: space-between;
+}
+
+.section-form .row .column .locations div{
+  padding: 10px;
+  width: 200px;
 }
 
