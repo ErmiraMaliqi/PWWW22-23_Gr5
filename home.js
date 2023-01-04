@@ -16,7 +16,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 2000); // Nderrohet foto cdo 2 sekonda
 }
 
 
@@ -37,18 +37,15 @@ function readMore() {
   }
 }
 
-
 $('.showcase .buttons').click(function(){
   $(this).addClass('button-active').siblings().removeClass('button-active');
-//   metoda attr() ne jquery perdoret per me kthy vleren e  atributet psh all, branding etj
-
+  
+//   metoda attr() ne jquery perdoret per me kthy vleren e atributit psh all, branding etj
   let filter=$(this).attr('data-filter');
   if(filter=='all'){
     $('.work .image' ).not('.'+filter).hide(200);
     $('.work .image' ).filter('.'+filter).show(400);
   }
-//   hide-callback
-
   else{
     $('.work .image' ).not('.'+filter).hide(200);
     $('.work .image' ).filter('.'+filter).show(400);

@@ -8,9 +8,9 @@
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-  }
+}
 
-  header {
+header {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 .5rem .5rem rgba(0,0,0,.3);
     height: 80px;
@@ -19,7 +19,7 @@
     position: sticky;
     top:0px;
     z-index: 999;
-  }
+}
 
 .logo img{
   margin: 0 110px;
@@ -56,14 +56,12 @@ ul li a:hover{
   background-color: rgb(74, 189, 181);
   border-radius: 13px;
   padding: 10px 20px;
-  transition: 0s;
 }
 
 ul li.active a{
   background-color: rgb(74, 189, 181);
   border-radius: 13px;
   padding: 10px 20px;
-  transition: 0s;
 }
 
 ul li.active a:hover{
@@ -73,35 +71,6 @@ ul li.active a:hover{
 body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-}
-
-.my-footer{
-  display: flex;
-  justify-content: space-between;
-  padding:0px 0px;
-  background-color: black;
-}
-
-.my-footer img{
-  margin: 70px 0px 35px 120px;
-  width: 120px;
-  height: 90px;
-}
-.my-footer .copyright{
-  display: flex;
-}
-
-.my-footer p{
-  margin: 100px 10px;
-  color:white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-.back-to-top{ 
-  margin: 0px 120px;
-  color:rgb(255, 255, 255);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -117,7 +86,6 @@ main{
   margin-left: 10px;
   color: black;
 }
-
 
 .main-text{
   margin-top: 100px;
@@ -158,7 +126,6 @@ main{
   from {opacity: .4} 
   to {opacity: 1}
 }
-
 
 
 .work
@@ -210,7 +177,6 @@ main{
   border-radius: 10px;
 
 }
-
 
 .work .image-container .image img{
   height: 20rem;
@@ -295,19 +261,18 @@ main{
   cursor: pointer;
 }
 
-#read-more{
+.about-content .little-about-us .about-read-more #read-more{
   font-size: 15px;
 }
 
 
-#more{
+.about-content .little-about-us #more{
   display: none;
 }
 
 .img:hover>.description{
   display:inline;
 }
-
 
 .description { 
   margin: 0;
@@ -367,9 +332,6 @@ main{
   cursor: pointer;
 }
 
-
-
-
 .blog .blog-content .blog-img:hover>.readmore{
   display: inline;
 }
@@ -391,13 +353,10 @@ main{
   border-radius: 4px;
 }
 
-
 .blog-img {
   margin:10px 10px;
   display:inline;
 }
-
-
 
 .blog .blog-img .blog-title{
   margin:10px 0px;
@@ -410,8 +369,6 @@ main{
   font-size: 12px;
   text-align: left;
 }
-
-
 
 
 .contact
@@ -509,3 +466,29 @@ main{
 }
 
 
+.my-footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.my-footer img{
+  margin: 70px 0px 35px 120px;
+  width: 120px;
+  height: 90px;
+}
+.my-footer .copyright{
+  display: flex;
+}
+
+.my-footer p{
+  margin: 100px 10px;
+  color:white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.back-to-top{ 
+  margin: 0px 120px;
+  color:rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

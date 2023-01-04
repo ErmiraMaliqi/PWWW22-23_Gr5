@@ -46,14 +46,12 @@ ul li a:hover{
   background-color: rgb(74, 189, 181);
   border-radius: 13px;
   padding: 10px 20px;
-  transition: 0s;
 }
 
 ul li.active a{
 background-color: rgb(74, 189, 181);
 border-radius: 13px;
 padding: 10px 20px;
-transition: 0s;
 }
 
 ul li.active a:hover{
@@ -65,35 +63,9 @@ body{
   color: rgb(0, 0, 0);
 }
 
-.my-footer{
-display: flex;
-justify-content: space-between;
-padding:0px 0px;
-background-color: rgb(0, 48, 63);
-}
-
-.my-footer img{
-margin: 70px 0px 35px 120px;
-width: 120px;
-height: 90px;
-}
-.my-footer .copyright{
-display: flex;
-}
-
-.my-footer p{
-margin: 100px 10px;
-color:white;
-}
-
-
-.back-to-top{ 
-margin: 0px 120px;
-color:rgb(255, 255, 255);
-}
 
 main{
-  padding: 100px 15px;
+  padding: 100px 0px;
   text-align: center;
   background-color: rgb(0, 48, 63);
   box-shadow: 0 0.5rem 0.5rem rgb(0, 0, 0,.5);
@@ -118,6 +90,7 @@ main{
   border: solid;
   border-color: rgb(74, 189, 181); 
 }
+
 
 .ourwork{
   display: grid;
@@ -144,15 +117,10 @@ main{
   width: 360px;
 }
 
-
 .ourwork .product div .title{
   font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
-}
-
- #featured1 {
-  background-color: #FAFAFA;
 }
 
  #featured1 figcaption,  #featured2 figcaption,  #featured3 figcaption {
@@ -172,7 +140,6 @@ main{
 }
 
 
-
 .more-product .products{
   margin:0px 10px;
 }
@@ -181,7 +148,6 @@ main{
   text-align: center;
   margin: 50px 0;
 }
-
 
 .more-product table tr td img{
   width:100%;
@@ -268,7 +234,6 @@ table-layout: fixed;
   padding: 15px;
 }
 
-
 .contact .contact-content form #message{
   padding: 15px;
   margin-left: 10px;
@@ -291,3 +256,29 @@ table-layout: fixed;
   cursor: pointer;
 }
 
+.my-footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 48, 63);
+}
+  
+.my-footer img{
+  margin: 70px 0px 35px 120px;
+  width: 120px;
+  height: 90px;
+}
+  
+.my-footer .copyright{
+  display: flex;
+}
+  
+.my-footer p{
+  margin: 100px 10px;
+  color:white;
+}
+  
+.back-to-top{ 
+  margin: 0px 120px;
+  color:rgb(255, 255, 255);
+}
+  
