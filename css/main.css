@@ -1,0 +1,266 @@
+
+/* Slides changes from Verona */
+.slid{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+
+}
+h5{
+    color: grey;
+}
+.slides{
+
+
+}
+.slides img{
+    width: 960px;
+    height: 400px;
+
+
+
+
+}
+
+.slider {
+    position: relative;
+
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right:15px;
+    width: 960px;
+    height: 400px;
+}
+
+.contentDescription {
+    width: 30%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    z-index: 10;
+
+
+
+
+
+}
+
+.sliderButtons {
+    /* border: 1px solid red; */
+    display: inline-block;
+    height: 25%;
+    width: 20px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+#sliderContentAllign {
+    text-align: start;
+    color:white;
+}
+
+#readMoreLink {
+    text-decoration: none;
+    color: white;
+    text-align: end;
+}
+
+#dot {
+    /* padding: 5px; */
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: #bbb;
+    border-radius: 60%;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+#dot:hover {
+    background-color: black;
+}
+
+#sliderText {
+    grid-column: 1/8;
+    color: white;
+    column-count: 1;
+}
+
+.slideControlls {
+    /* margin-top: 20px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+    color: white;
+
+}
+
+
+/* Mbresa */
+
+
+.p1 {
+    display:inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-right:17px;
+}
+.p1 img{
+    width:225px;
+    height:180px;
+}
+.gallery>p {
+      padding-top: 5px;
+      padding-left: 10px;
+      color: white;
+      width: 100%;
+      height: 20px;
+      font-size: 13px;
+      /* border: 1px solid blue; */
+      background-color: #3b7a9d;
+}
+.gallery img {
+   margin-right: 22px;
+}
+.gallery img:hover {
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+}
+.text {
+    width: 225px;
+    color: grey;
+    background-color: white;
+  }
+/*.boxx:hover .img {
+  top: 0%;
+  opacity: 1;
+}
+.boxx:hover .tb {
+  color: white;
+  transition: all ease 0.3s;
+}*/
+#sc1 {
+  margin-top: 20px;
+}
+
+#block4 {
+    margin-left: 15px;
+    display: inline;
+  }
+
+.title, .link {
+  color: steelblue;
+}
+
+a:link {
+  text-decoration: none
+}
+#main2 {
+
+}
+
+/* Verona */
+
+
+/* main2 */
+
+#main2 {
+    display: inline;
+}
+
+.inline {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width:350px;
+}
+.inline3{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width:300px;
+
+}
+.inline3 video{
+    width: 300px;
+    height:180px;
+
+}
+.inline2{
+    margin-left: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 310px;
+
+}
+.inline2 p{
+    font-size: 14px;
+
+}
+.inline2 hr{
+    width: 100%;
+}
+
+.story {
+  height: 100px;
+  margin-top: 10px;
+  color: white;
+  width: 350px;
+}
+span.hiddentext {
+  display: none;
+}
+.story:hover span.hiddentext{
+  display: block;
+  transition: 0.5s;
+}
+.story:hover .text1 {
+  height: 150px;
+  z-index: 100;
+  position: relative;
+  width: 350px;
+  border-bottom: 2px solid grey;
+}
+.text1 {
+  padding-right: 10px;
+  margin: 0px;
+  background-color: white;
+}
+#searchButton{
+  text-transform: uppercase;
+}
+
+/* instructos */
+.ins{
+    margin-bottom: 30px;
+    margin-top:-10px;
+    padding:0px;
+}
+
+.insBody{
+    display: inline-block;
+}
+
+
+.inline h4{
+    text-align: left;
+}
+.insImg{
+    display: inline-block;
+
+}
+
+.insIcon{
+    margin-top:20px;
+    width: 80px;
+    height:80px;
+}
