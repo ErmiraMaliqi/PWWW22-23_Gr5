@@ -1,243 +1,271 @@
 * {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top:0px;
-    padding: 0px;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: relative;
-    color: black;
-  }
-  
-  header {
-    background-color: rgb(0, 48, 63);
-    box-shadow: 0 .5rem .5rem rgba(0,0,0,.3);
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top:0px;
-    z-index: 999;
-  }
-  
-  .logo img{
-    margin: 0 120px;
-    width: 120px;
-    height: 80px;
-  }
-  
-  nav{
-    margin-right: 120px;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    line-height: 80px;
-  }
-  
-  .nav-link a{
-    color:rgb(255, 255, 255);
-    margin: 0 30px;
-  }
-  
-  ul li a:hover{
-    background-color: rgb(74, 189, 181);
-    border-radius: 13px;
-    padding: 10px 20px;
-    transition: 0s;
-  }
-  
-  ul li.active a{
-  background-color: rgb(74, 189, 181);
-  border-radius: 13px;
-  padding: 10px 20px;
-  transition: 0s;
-  }
-  
-  ul li.active a:hover{
-    border-radius: 10px;
-  }
-  
-  body{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-  }
-  
-  .my-footer{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top:0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 .5rem .5rem rgba(0,0,0,.3);
+  height: 80px;
   display: flex;
   justify-content: space-between;
-  padding:0px 0px;
-  background-color: rgb(0, 48, 63);
+  position: sticky;
+  top:0px;
+  z-index: 999;
+}
+
+.logo img{
+margin: 0 110px;
+width: 200px;
+height: 80px;
+}
+
+.text {
+margin-right: 10%;
+}
+
+nav{
+margin-right: 120px;
+}
+
+nav ul li {
+  margin:0 20px;
+  font-size: 15px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav ul li:nth-child(5){
+margin:0;
+}
+
+.nav-link a{
+  color:black;
+  margin: 0 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li a:hover{
+background-color: rgb(74, 189, 181);
+border-radius: 13px;
+padding: 10px 20px;
+}
+
+ul li.active a{
+background-color: rgb(74, 189, 181);
+border-radius: 13px;
+padding: 10px 20px;
+}
+
+ul li.active a:hover{
+border-radius: 10px;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+main{
+margin: 0px 120px;
+display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+}
+
+
+div#dyd {
+
+  color: aliceblue;
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 300px;
+  height: 80px;
+  -ms-transform: rotate(20deg);
+  /* IE 9 */
+  transform: rotate(20deg);
+  /* Standard syntax */
+  -webkit-animation: skew 3s infinite linear;
+  animation: skew 3s infinite linear;
+
+
+
+}
+
+dd,
+li {
+  font-size: 16px;
+
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+div#tred {
+
+  color: aliceblue;
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 300px;
+  height: 80px;
+
+  -ms-transform: rotateZ(200deg);
+  /* IE 9 */
+  transform: rotateZ(200deg);
+  /* Standard syntax */
+
+
+}
+
+h2 {
+  background-color: #156694;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 5px;
+  width: 98%;
+}
+
+h3,
+h4 {
+  color: #697922;
+  font-size: 1.1em;
+  padding: 15px 0 5px;
+}
+
+a {
+  color: #156694;
+}
+
+li {
+  padding: 2px 0;
+}
+
+main button {
+  background-color: darkslategray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+dt {
+  font-weight: bold;
+  margin: 15px 40px 5px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #156694;
+}
+
+dt:before {
+  content: "Q";
+  font-size: 1.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-right: 7px;
+  padding: 2px 6px 5px;
+  color: #FFD87D;
+  background-color: #156694;
+  font-weight: normal;
+
+  margin-left: -35px;
+  position: relative;
+  top: 10px;
+}
+
+
+dd {
+  margin: 25px 70px 0px;
+  padding-bottom: 12px;
+  line-height: 150%;
+}
+
+dd:before {
+  content: "A";
+  font-size: 1.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-right: 7px;
+  padding: 2px 9px;
+  color: #156694;
+  background-color: #FFD87D;
+
+  margin-left: -38px;
+  position: relative;
+  top: 10px;
+}
+
+p {
+  line-height: 150%;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+@-webkit-keyframes skew {
+  from {
+    -webkit-transform: skewX(0deg);
   }
-  
-  .my-footer img{
-  margin: 70px 0px 35px 120px;
-  width: 120px;
-  height: 90px;
+
+  20% {
+    -webkit-transform: skewX(30deg);
   }
-  .my-footer .copyright{
-  display: flex;
+
+  40% {
+    -webkit-transform: skewX(-30deg);
   }
-  
-  .my-footer p{
-  margin: 100px 10px;
-  color:white;
+
+  60% {
+    -webkit-transform: skewY(30deg);
   }
-  
-  
-  .back-to-top{ 
-  margin: 0px 120px;
-  color:rgb(255, 255, 255);
+
+  80% {
+    -webkit-transform: skewY(-30deg);
   }
-  
-  main{
-    padding: 100px 15px;
-    text-align: center;
-    background-color: rgb(0, 48, 63);
-    box-shadow: 0 0.5rem 0.5rem rgb(0, 0, 0,.5);
+
+  to {
+    -webkit-transform: skewY(0deg);
   }
-  
-  .main-text .title{
-    color: rgb(193, 193, 74);
-    margin:30px 0;
-    font-size: 50px;
+}
+
+@keyframes skew {
+  from {
+    transform: skewX(0deg);
   }
-  
-  .main-text .text{
-    margin-bottom: 50px;
-    font-size: 30px;
-    color:white;
+
+  20% {
+    transform: skewX(30deg);
   }
-  
-  
-  .about-us{
-    display: flex;
-    margin: 80px 70px;
-    justify-content: space-between;
+
+  40% {
+    transform: skewX(-30deg);
   }
-  
-  .about-us img{
-    width:500px;
-    height: 400px;
+
+  60% {
+    transform: skewY(30deg);
   }
-  
-  .about-us .content{
-    font-size: 20px;
-    width:450px;
-    line-height: 1.6;
+
+  80% {
+    transform: skewY(-30deg);
   }
-  
-  .consultants{
-    text-align: center;
-    margin: 80px;
+
+  to {
+    transform: skewY(0deg);
   }
-  
-  .consultants .title{
-      margin: 20px 80px;
-      font-size: 25px;
-  }
-  
-  .consultants .text{
-    margin: 20px 80px;
-    font-size: 15px;
-  }
-  
-  .consultants .content{
-    display: flex;
-    justify-content: center;
-  }
-  
-  .consultants .content img{
-    width:100%;
-    padding: 10px;
-    box-shadow: 0 .5rem .5rem rgba(0,0,0,.3);
-  
-  }
-  
-  .consultants .content .consultant {
-    width: 100%;
-    text-align: left;
-  }
-  
-  .consultants .content .consultant .text{
-    margin:10px;
-    line-height: 1.6;
-    word-spacing: 1px;
-  }
-  
-  .consultants .content .consultant .text .profesion{
-    color:brown;
-  }
-  
-  .consultants .content .consultant .text .name{
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  
-  .contact
-  {
-    margin: 80px 120px 0px 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 100%;
-    padding: 20px 0px 40px 350px;
-    background-color: rgb(19, 82, 94);
-  }
-  
-  
-  
-  
-  
-  .contact .contact-content{
-    background-color:  rgb(0, 48, 63);
-    width: 600px;
-    padding: 20px 0px;
-    border-radius: 4px;
-    padding-left: 30px ;
-    margin-top: 30px;
-    box-shadow: 0 .5rem .5rem rgba(0,0,0,.5);
-  }
-  
-  .contact .contact-content form{
-    background-color:  rgb(0, 48, 63);
-    border-radius: 4px;
-    width: 400px;
-    margin: 40px 40px;
-  }
-  
-  .contact .contact-content form #text{
-    margin-left: 10px;
-    width:90%;
-    height: 30px;
-    border: solid;
-    border-color: transparent;
-    border-radius: 4px;
-    padding: 15px;
-  }
-  
-  
-  .contact .contact-content form #message{
-    padding: 15px;
-    margin-left: 10px;
-    width:90%;
-    height: 100px;
-    border: solid;
-    border-color:  transparent;
-    border-radius: 4px;
-  
-  }
-  
-  .contact .contact-content form #submit{
-    background-color:  rgb(74, 189, 181);
-    margin-left: 12px;
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 4px;
-    border:none;
-    color:rgb(28, 24, 24);
-    cursor: pointer;
-  }
-  
-  
+}
